@@ -8,6 +8,7 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
+    "chromadb>=1.5.9",
     "ddgs>=9.16.1",
     "dotenv>=0.9.9",
     "langchain>=1.4.7",
@@ -16,6 +17,7 @@ dependencies = [
     "langchain-openai>=1.7.3",
     "langgraph>=1.2.18",
     "psycopg[binary]>=3.3.6",
+    "pypdf>=6.21.4",
     "python-dotenv>=1.2.4",
     "sqlglot>=30.27.0",
 ]
